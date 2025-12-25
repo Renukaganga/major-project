@@ -7,7 +7,7 @@ from db.mongodb import get_user
 
 # Use a dedicated project email
 SMTP_EMAIL = "22b01a1231@svecw.edu.in"
-SMTP_PASSWORD = "rtlppursfnurmatr"
+SMTP_PASSWORD = ""
 
 def send_otp(email):
     """
